@@ -1,0 +1,49 @@
+/* Variaveis CSS */
+/* Possiveis reutilizar */
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+/* Reset css */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*  Observar a caixa de um elemento HTML */
+/* header .container{
+    border: 1px solid black;
+} */
+
+/* Formatações CSS */
+body{
+    background-color: var(--preto);
+    font-family: "Times New Roman", Times, serif;
+}
+
+header .container{
+    display:flex; /* por padrão joga pra row */
+    align-items: center;
+    justify-content: space-between; /*distancia entre elementos*/
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial Black", Times; /* fonte principal, fonte caso não tenha */
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
