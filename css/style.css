@@ -102,3 +102,9 @@ header nav a:hover{
 .filme-principal .container{
     width: 70%; /* ate onde vai minha caixa */
 }
+
+.carrosel-filmes{
+    height: 100%;
+    width: 100%;
+    display:block;
+}
